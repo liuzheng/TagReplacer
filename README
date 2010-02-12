@@ -1,4 +1,4 @@
-TagReplacer.js - A simple function to find HTML elements of a specified type and replace them with something else.
+TagReplacer.js - A simple jQuery function to find HTML elements of a specified type and replace them with something else.
 
 Requirements:
 jQuery and the getAttributes plugin.
@@ -6,8 +6,8 @@ http://jquery.com/
 http://plugins.jquery.com/project/getAttributes
 
 Usage:
-All you need to do is call replaceTags() with an associative array as the argument.
-Example: replaceTags({tagToReplace:"replaceWith", p:"div", b:"span"});
+All you need to do is call $.replaceTags() with an associative array as the argument.
+Example: $("body").replaceTags({tagToReplace:"replaceWith", p:"div", b:"span"});
 
 Enjoy! :)
 SphereCat1
